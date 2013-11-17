@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/main.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+	</head>
+	<body>
 
-    </head>
-    <body>
+		<div class="site">
+			<header class="site-header">
+				<h1 class="title"><a href="/">{{ site.name }}</a></h1>
+				<nav class="sitenav">
+					<ul class="sitelinks">
+						<li class="link">
+							<a href="#donate" title="Donate">Donate</a>
+						</li>
+						<li class="link">
+							<a href="#volunteer" title="Volunteer">Volunteer</a>
+						</li>
+						<li class="link">
+							<a href="#sponsors" title="Sponsor">Sponsors</a>
+						</li>
+					</ul>
+				</nav>
+				<section class="what-to-donate">
+					<h1>Please donate new unwrapped: <span>toys, games, books, balls, and school/art supplies</span></h1>
+				</section>
+			</header>
+			<div class="site-body">
+				<section id="donate">
+					<h1>Donate</h1>
+					<div class="column">
+						<h2>Drop off Locations</h2>
+						<ul>
+							<li>Campbell Library</li>
+							<li>Campbell Community Center</li>
+							<li>Campbell Fire Stations</li>
+							<li>and various Campbell Business</li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>Items Accepted</h2>
+						<ul>
+							<li>Toys</li>
+							<li>Games</li>
+							<li>Books</li>
+							<li>Balls</li>
+							<li>School &amp; Art Supplies</li>
+							<li>Monetary Donations<sup>*</sup></li>
+						</ul>
+						<p class="footnote"><sup>*</sup> Make check payable to Campbell Chamber of Commerce / Campbell Community Toy Program</p>
+					</div>
+				</section>
+				
+				<section id="volunteer">
+					<h1>Volunteer</h1>
+					<h2>Toy Sorting</h2>
+					<p>Toy sorting starts December 5th.</p>
+					<p>Sorting toys by age/gender, bagging for each child/family: December 12th-13th, 4-8pm</p>
+					<p>At the Home Church (1799 Winchester Blvd, Campbell, CA 95008, (408) 370-1500)</p>
+					<p>Contact Bob Carlson for details: rscarlson@earthlink.net</p>
+					
+					<h2>Toy Distribution</h2>
+					<p>Toy Distribution: December 14th 8-12pm</p>
+					<p>At the Home Church (1799 Winchester Blvd, Campbell, CA 95008, (408) 370-1500)</p>
+					<p>Contact Bob Carlson for details: rscarlson@earthlink.net</p>
+				</section>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+				<section id="sponsors">
+					<h1>Sponsors</h1>
+					<p>
+						<a href="#" title="Santa Clara County Fire">Santa Clara County Fire</a>
+						<a href="#" title="Campbell Chamber of Commerce">Campbell Chamber of Commerce</a>
+						<a href="#" title="City of Campbell Rotary">City of Campbell Rotary</a>
+						<a href="#" title="Campbell Unified School District">Campbell Unified School District</a>
+						<a href="#" title="Home Church">Home Church</a>
+						<a href="#" title="Crossings Community">Crossings Community</a>
+				</section>
+			</div>
 
-          {{ content }}
+			{{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+			<div class="site-footer"></div>
+		</div>
 
-    </body>
+	</body>
 </html>
