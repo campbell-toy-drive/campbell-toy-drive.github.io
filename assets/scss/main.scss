@@ -1,0 +1,130 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body { height: 100%; }
+
+body {
+	background-color: #fff;
+	color: #999;
+	font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4rem;
+  line-height: 1.667;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+h1 { font-size: 44px; }
+//h2 { font-size: ; }
+//h3 { font-size: ; }
+
+ul {
+  margin: 0 0 0 1.1rem;
+}
+section {
+  clear: both;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+
+// Variables and Mixins
+$red:   #d12027;
+$green: #66be67;
+$gray:  #999;
+
+.site {
+	border: 30px solid $green;
+	padding: 2rem;
+}
+
+.site-header,
+.site-body,
+.site-footer { clear: both; }
+
+.site-header { overflow: hidden; }
+.site-body {
+  h1,
+  h2 { color: $red; }
+
+  h1 {
+    border-bottom: 1px solid $gray;
+    padding: 0 1rem;
+  }
+}
+
+.title {
+  float: left;
+  max-width: 250px;
+}
+
+.site-meta {
+  width: -webkit-calc(100% - 250px);
+  width:         calc(100% - 250px);
+
+  float: right;
+  text-align: center;
+  .site-links,
+  .link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    color: $green;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .site-links {
+    
+  }
+  .link {
+    display: inline-block;
+    border-left: 1px solid $gray;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    &:first-child {
+      border-left: 0;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+}
+
+.column {
+  width: 50%;
+  float: left;
+  &:last-child {
+    float: right;
+  }
+}
+
+#donate {
+  img {
+    display: block;
+    margin: auto;
+  }
+}
