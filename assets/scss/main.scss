@@ -23,8 +23,6 @@ body {
 }
 
 body {
-//	min-width: 100%;
-//	overflow: hidden;
 	background-color: #fff;
 	color: #999;
 	font-family: Georgia, "Times New Roman", serif;
@@ -80,6 +78,7 @@ img {
 
 .site-header { overflow: hidden; }
 .site-body {
+	overflow: hidden;
 	h1,
 	h2 { color: $red; }
 
