@@ -1,0 +1,68 @@
+    The humans.txt file explains the team, technology, and graphic assets 
+    behind this site.
+    
+    Lovingly hand-crafted in Campbell, CA, for Campbell.
+
+    Last update: 2013/11/21 
+
+_______________________________________________________________________________
+
+
+    PEOPLE
+    
+
+
+    E&J Design
+    http://eandjdesign.com
+
+    James Carleton, Designer | @jamescarleton
+    http://carletondesign.com
+    
+    Eric Ritchey, Developer | @ritcheyer
+    http://eric.ritchey.io
+
+    Bob Carlson, Coordinator; Campbell Citizen of the Year, 2012
+
+    Trevor Zink, Coordinator
+    http://omnillp.com/
+    
+_______________________________________________________________________________
+
+
+    TECHNOLOGY
+  
+
+
+    Jekyll
+    http://jekyllrb.com
+  
+    Github
+    https://github.com/
+  
+    jQuery
+    http://jquery.com/
+  
+    Sass
+    http://sass-lang.com
+  
+    Compass
+    http://compass-style.org/
+  
+    Codekit
+    http://incident57.com/codekit/
+    
+    Sublime Text 3
+    http://www.sublimetext.com/
+    
+    Textmate 2
+    http://macromates.com
+    https://github.com/textmate/textmate
+    
+    Espresso
+    http://macrabbit.com/espresso/
+    
+    Adobe Photoshop
+    http://adobe.com/photoshop
+    
+    Adobe Illustrator
+    http://adobe.com/illustrator
