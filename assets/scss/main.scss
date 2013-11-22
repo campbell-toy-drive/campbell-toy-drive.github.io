@@ -21,7 +21,8 @@ html,
 body { height: 100%; }
 
 body {
-	min-width: 400px;
+	min-width: 100%;
+	overflow: hidden;
 	background-color: #fff;
 	color: #999;
 	font-family: Georgia, "Times New Roman", serif;
@@ -175,6 +176,9 @@ img {
 @media screen and (max-width: $break-small) {
 	body {
 		font-size: 1rem;
+	}
+	.site {
+		border-width: 10px;
 	}
 	.site-body {
 		h2,p,ul {
