@@ -18,7 +18,10 @@ $break-small: 800px;
 }
 
 html,
-body { height: 100%; }
+body {
+//	overflow: hidden;
+	height: 100%;
+}
 
 body {
 //	min-width: 100%;
@@ -197,11 +200,38 @@ img {
 	}
 	.what-to-donate {
 		h1 {
+			font-size: 175%;
 			margin-top: 1rem;
+			span {
+				margin-top: 1rem;
+			}
 		}
 	}
 	.column {
 		width: 100%;
 		float: none;
+	}
+	.link {
+		padding-left: .5rem;
+		margin-left: .5rem;
+	}
+	#sponsors {
+		a {
+			display: block;
+			margin: 0;
+			padding: 0 0 0 15px;
+			border: 0;
+			position: relative;
+			&:first-child {
+				padding-left: 15px;
+			}
+			&:before {
+				left: 0;
+				position: absolute;
+				content: "\2713 ";
+				width: 10px;
+				height: 10px;
+			}
+		}
 	}
 }
